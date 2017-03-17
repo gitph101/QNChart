@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2EA55021E78D47A00D1FD23 /* QNChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EA55011E78D47A00D1FD23 /* QNChartTests.m */; };
+		E2EA550D1E78D47A00D1FD23 /* QNChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EA550C1E78D47A00D1FD23 /* QNChartUITests.m */; };
+		E2EA55281E78D4D700D1FD23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EA551C1E78D4D700D1FD23 /* AppDelegate.m */; };
+		E2EA55291E78D4D700D1FD23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EA551D1E78D4D700D1FD23 /* Assets.xcassets */; };
+		E2EA552A1E78D4D700D1FD23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EA551E1E78D4D700D1FD23 /* LaunchScreen.storyboard */; };
+		E2EA552B1E78D4D700D1FD23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EA55201E78D4D700D1FD23 /* Main.storyboard */; };
+		E2EA552C1E78D4D700D1FD23 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2EA55221E78D4D700D1FD23 /* Info.plist */; };
+		E2EA552D1E78D4D700D1FD23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EA55231E78D4D700D1FD23 /* main.m */; };
+		E2EA552E1E78D4D700D1FD23 /* QNChart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2EA55241E78D4D700D1FD23 /* QNChart.xcdatamodeld */; };
+		E2EA552F1E78D4D700D1FD23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EA55271E78D4D700D1FD23 /* ViewController.m */; };
+		E2EA55331E78D51F00D1FD23 /* SFBaseChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EA55321E78D51F00D1FD23 /* SFBaseChartView.m */; };
+		E2EA55391E78D58A00D1FD23 /* QNChartInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EA55381E78D58A00D1FD23 /* QNChartInfo.m */; };
+		E2EA553C1E78D69C00D1FD23 /* QNChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EA553B1E78D69C00D1FD23 /* QNChartModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2EA54FE1E78D47A00D1FD23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2EA54D91E78D47A00D1FD23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EA54E01E78D47A00D1FD23;
+			remoteInfo = QNChart;
+		};
+		E2EA55091E78D47A00D1FD23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2EA54D91E78D47A00D1FD23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EA54E01E78D47A00D1FD23;
+			remoteInfo = QNChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2EA54E11E78D47A00D1FD23 /* QNChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QNChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EA54FD1E78D47A00D1FD23 /* QNChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QNChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EA55011E78D47A00D1FD23 /* QNChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNChartTests.m; sourceTree = "<group>"; };
+		E2EA55031E78D47A00D1FD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2EA55081E78D47A00D1FD23 /* QNChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QNChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EA550C1E78D47A00D1FD23 /* QNChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNChartUITests.m; sourceTree = "<group>"; };
+		E2EA550E1E78D47A00D1FD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2EA551B1E78D4D700D1FD23 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2EA551C1E78D4D700D1FD23 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2EA551D1E78D4D700D1FD23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2EA551F1E78D4D700D1FD23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2EA55211E78D4D700D1FD23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2EA55221E78D4D700D1FD23 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2EA55231E78D4D700D1FD23 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2EA55251E78D4D700D1FD23 /* QNChart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QNChart.xcdatamodel; sourceTree = "<group>"; };
+		E2EA55261E78D4D700D1FD23 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2EA55271E78D4D700D1FD23 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2EA55311E78D51F00D1FD23 /* SFBaseChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBaseChartView.h; sourceTree = "<group>"; };
+		E2EA55321E78D51F00D1FD23 /* SFBaseChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBaseChartView.m; sourceTree = "<group>"; };
+		E2EA55371E78D58A00D1FD23 /* QNChartInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNChartInfo.h; sourceTree = "<group>"; };
+		E2EA55381E78D58A00D1FD23 /* QNChartInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNChartInfo.m; sourceTree = "<group>"; };
+		E2EA553A1E78D69C00D1FD23 /* QNChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNChartModel.h; sourceTree = "<group>"; };
+		E2EA553B1E78D69C00D1FD23 /* QNChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNChartModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2EA54DE1E78D47A00D1FD23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EA54FA1E78D47A00D1FD23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EA55051E78D47A00D1FD23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2EA54D81E78D47A00D1FD23 = {
+			isa = PBXGroup;
+			children = (
+				E2EA55301E78D4E600D1FD23 /* QNChart */,
+				E2EA551A1E78D4D700D1FD23 /* QNChartDemo */,
+				E2EA55001E78D47A00D1FD23 /* QNChartTests */,
+				E2EA550B1E78D47A00D1FD23 /* QNChartUITests */,
+				E2EA54E21E78D47A00D1FD23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2EA54E21E78D47A00D1FD23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2EA54E11E78D47A00D1FD23 /* QNChart.app */,
+				E2EA54FD1E78D47A00D1FD23 /* QNChartTests.xctest */,
+				E2EA55081E78D47A00D1FD23 /* QNChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2EA55001E78D47A00D1FD23 /* QNChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2EA55011E78D47A00D1FD23 /* QNChartTests.m */,
+				E2EA55031E78D47A00D1FD23 /* Info.plist */,
+			);
+			path = QNChartTests;
+			sourceTree = "<group>";
+		};
+		E2EA550B1E78D47A00D1FD23 /* QNChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2EA550C1E78D47A00D1FD23 /* QNChartUITests.m */,
+				E2EA550E1E78D47A00D1FD23 /* Info.plist */,
+			);
+			path = QNChartUITests;
+			sourceTree = "<group>";
+		};
+		E2EA551A1E78D4D700D1FD23 /* QNChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E2EA551B1E78D4D700D1FD23 /* AppDelegate.h */,
+				E2EA551C1E78D4D700D1FD23 /* AppDelegate.m */,
+				E2EA551D1E78D4D700D1FD23 /* Assets.xcassets */,
+				E2EA551E1E78D4D700D1FD23 /* LaunchScreen.storyboard */,
+				E2EA55201E78D4D700D1FD23 /* Main.storyboard */,
+				E2EA55221E78D4D700D1FD23 /* Info.plist */,
+				E2EA55231E78D4D700D1FD23 /* main.m */,
+				E2EA55241E78D4D700D1FD23 /* QNChart.xcdatamodeld */,
+				E2EA55261E78D4D700D1FD23 /* ViewController.h */,
+				E2EA55271E78D4D700D1FD23 /* ViewController.m */,
+			);
+			path = QNChartDemo;
+			sourceTree = "<group>";
+		};
+		E2EA55301E78D4E600D1FD23 /* QNChart */ = {
+			isa = PBXGroup;
+			children = (
+				E2EA55311E78D51F00D1FD23 /* SFBaseChartView.h */,
+				E2EA55321E78D51F00D1FD23 /* SFBaseChartView.m */,
+				E2EA55371E78D58A00D1FD23 /* QNChartInfo.h */,
+				E2EA55381E78D58A00D1FD23 /* QNChartInfo.m */,
+				E2EA553A1E78D69C00D1FD23 /* QNChartModel.h */,
+				E2EA553B1E78D69C00D1FD23 /* QNChartModel.m */,
+			);
+			path = QNChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2EA54E01E78D47A00D1FD23 /* QNChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2EA55111E78D47A00D1FD23 /* Build configuration list for PBXNativeTarget "QNChart" */;
+			buildPhases = (
+				E2EA54DD1E78D47A00D1FD23 /* Sources */,
+				E2EA54DE1E78D47A00D1FD23 /* Frameworks */,
+				E2EA54DF1E78D47A00D1FD23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QNChart;
+			productName = QNChart;
+			productReference = E2EA54E11E78D47A00D1FD23 /* QNChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2EA54FC1E78D47A00D1FD23 /* QNChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2EA55141E78D47A00D1FD23 /* Build configuration list for PBXNativeTarget "QNChartTests" */;
+			buildPhases = (
+				E2EA54F91E78D47A00D1FD23 /* Sources */,
+				E2EA54FA1E78D47A00D1FD23 /* Frameworks */,
+				E2EA54FB1E78D47A00D1FD23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2EA54FF1E78D47A00D1FD23 /* PBXTargetDependency */,
+			);
+			name = QNChartTests;
+			productName = QNChartTests;
+			productReference = E2EA54FD1E78D47A00D1FD23 /* QNChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2EA55071E78D47A00D1FD23 /* QNChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2EA55171E78D47A00D1FD23 /* Build configuration list for PBXNativeTarget "QNChartUITests" */;
+			buildPhases = (
+				E2EA55041E78D47A00D1FD23 /* Sources */,
+				E2EA55051E78D47A00D1FD23 /* Frameworks */,
+				E2EA55061E78D47A00D1FD23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2EA550A1E78D47A00D1FD23 /* PBXTargetDependency */,
+			);
+			name = QNChartUITests;
+			productName = QNChartUITests;
+			productReference = E2EA55081E78D47A00D1FD23 /* QNChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2EA54D91E78D47A00D1FD23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YanJiuYuan;
+				TargetAttributes = {
+					E2EA54E01E78D47A00D1FD23 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V8GY4D3AU8;
+						ProvisioningStyle = Automatic;
+					};
+					E2EA54FC1E78D47A00D1FD23 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V8GY4D3AU8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2EA54E01E78D47A00D1FD23;
+					};
+					E2EA55071E78D47A00D1FD23 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V8GY4D3AU8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2EA54E01E78D47A00D1FD23;
+					};
+				};
+			};
+			buildConfigurationList = E2EA54DC1E78D47A00D1FD23 /* Build configuration list for PBXProject "QNChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2EA54D81E78D47A00D1FD23;
+			productRefGroup = E2EA54E21E78D47A00D1FD23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2EA54E01E78D47A00D1FD23 /* QNChart */,
+				E2EA54FC1E78D47A00D1FD23 /* QNChartTests */,
+				E2EA55071E78D47A00D1FD23 /* QNChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2EA54DF1E78D47A00D1FD23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EA552C1E78D4D700D1FD23 /* Info.plist in Resources */,
+				E2EA552B1E78D4D700D1FD23 /* Main.storyboard in Resources */,
+				E2EA55291E78D4D700D1FD23 /* Assets.xcassets in Resources */,
+				E2EA552A1E78D4D700D1FD23 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EA54FB1E78D47A00D1FD23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EA55061E78D47A00D1FD23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2EA54DD1E78D47A00D1FD23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EA552E1E78D4D700D1FD23 /* QNChart.xcdatamodeld in Sources */,
+				E2EA553C1E78D69C00D1FD23 /* QNChartModel.m in Sources */,
+				E2EA552D1E78D4D700D1FD23 /* main.m in Sources */,
+				E2EA55331E78D51F00D1FD23 /* SFBaseChartView.m in Sources */,
+				E2EA55391E78D58A00D1FD23 /* QNChartInfo.m in Sources */,
+				E2EA552F1E78D4D700D1FD23 /* ViewController.m in Sources */,
+				E2EA55281E78D4D700D1FD23 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EA54F91E78D47A00D1FD23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EA55021E78D47A00D1FD23 /* QNChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EA55041E78D47A00D1FD23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EA550D1E78D47A00D1FD23 /* QNChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2EA54FF1E78D47A00D1FD23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EA54E01E78D47A00D1FD23 /* QNChart */;
+			targetProxy = E2EA54FE1E78D47A00D1FD23 /* PBXContainerItemProxy */;
+		};
+		E2EA550A1E78D47A00D1FD23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EA54E01E78D47A00D1FD23 /* QNChart */;
+			targetProxy = E2EA55091E78D47A00D1FD23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2EA551E1E78D4D700D1FD23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2EA551F1E78D4D700D1FD23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E2EA55201E78D4D700D1FD23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2EA55211E78D4D700D1FD23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2EA550F1E78D47A00D1FD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2EA55101E78D47A00D1FD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2EA55121E78D47A00D1FD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V8GY4D3AU8;
+				INFOPLIST_FILE = QNChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QN.QNChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2EA55131E78D47A00D1FD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V8GY4D3AU8;
+				INFOPLIST_FILE = QNChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QN.QNChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2EA55151E78D47A00D1FD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V8GY4D3AU8;
+				INFOPLIST_FILE = QNChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QN.QNChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QNChart.app/QNChart";
+			};
+			name = Debug;
+		};
+		E2EA55161E78D47A00D1FD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V8GY4D3AU8;
+				INFOPLIST_FILE = QNChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QN.QNChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QNChart.app/QNChart";
+			};
+			name = Release;
+		};
+		E2EA55181E78D47A00D1FD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V8GY4D3AU8;
+				INFOPLIST_FILE = QNChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QN.QNChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QNChart;
+			};
+			name = Debug;
+		};
+		E2EA55191E78D47A00D1FD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V8GY4D3AU8;
+				INFOPLIST_FILE = QNChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QN.QNChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QNChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2EA54DC1E78D47A00D1FD23 /* Build configuration list for PBXProject "QNChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EA550F1E78D47A00D1FD23 /* Debug */,
+				E2EA55101E78D47A00D1FD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2EA55111E78D47A00D1FD23 /* Build configuration list for PBXNativeTarget "QNChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EA55121E78D47A00D1FD23 /* Debug */,
+				E2EA55131E78D47A00D1FD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2EA55141E78D47A00D1FD23 /* Build configuration list for PBXNativeTarget "QNChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EA55151E78D47A00D1FD23 /* Debug */,
+				E2EA55161E78D47A00D1FD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2EA55171E78D47A00D1FD23 /* Build configuration list for PBXNativeTarget "QNChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EA55181E78D47A00D1FD23 /* Debug */,
+				E2EA55191E78D47A00D1FD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2EA55241E78D4D700D1FD23 /* QNChart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2EA55251E78D4D700D1FD23 /* QNChart.xcdatamodel */,
+			);
+			currentVersion = E2EA55251E78D4D700D1FD23 /* QNChart.xcdatamodel */;
+			path = QNChart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2EA54D91E78D47A00D1FD23 /* Project object */;
+}
